@@ -26,7 +26,13 @@ export function AppHeader() {
     <header className="sticky top-0 z-30 flex h-16 items-center gap-4 border-b bg-background/80 backdrop-blur-sm px-4 sm:px-6">
       <Link href="/" className="flex items-center gap-2 mr-6">
         <div className="p-2 rounded-lg bg-primary/20">
-          <Sprout className="w-6 h-6 text-primary" />
+          <Image
+  src="/carbonchain-logo.png"
+  alt="CarbonChain"
+  width={42}
+  height={42}
+  className="rounded-lg"
+/>
         </div>
         <h1 className="text-xl font-semibold text-primary font-headline hidden md:block">CarbonChain</h1>
       </Link>
@@ -58,7 +64,13 @@ export function AppHeader() {
           <nav className="grid gap-6 text-lg font-medium">
             <Link href="/" className="flex items-center gap-2 text-lg font-semibold mb-4">
               <div className="p-2 rounded-lg bg-primary/20">
-                <Sprout className="w-6 h-6 text-primary" />
+                <Image
+  src="/carbonchain-logo.png"
+  alt="CarbonChain"
+  width={42}
+  height={42}
+  className="rounded-lg"
+/>
               </div>
               <span className="text-primary font-headline">CarbonChain</span>
             </Link>
