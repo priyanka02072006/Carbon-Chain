@@ -27,7 +27,7 @@ export function AppHeader() {
       <Link href="/" className="flex items-center gap-2 mr-6">
         <div className="p-2 rounded-lg bg-primary/20">
           <Image
-  src="/carbonchain-logo.png"
+  src="/favicon.ico"
   alt="CarbonChain"
   width={42}
   height={42}
@@ -65,7 +65,7 @@ export function AppHeader() {
             <Link href="/" className="flex items-center gap-2 text-lg font-semibold mb-4">
               <div className="p-2 rounded-lg bg-primary/20">
                 <Image
-  src="/carbonchain-logo.png"
+  src="/favicon.ico"
   alt="CarbonChain"
   width={42}
   height={42}
