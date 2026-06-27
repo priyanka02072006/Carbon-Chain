@@ -4,8 +4,9 @@ import { Toaster } from "@/components/ui/toaster";
 import { ThemeProvider } from '@/components/theme-provider';
 
 export const metadata: Metadata = {
-  title: 'CarbonChain',
-  description: 'Blockchain-Based Blue Carbon Registry and MRV System',
+  title: "CarbonChain | Blue Carbon Registry",
+  description:
+    "A blockchain-powered Blue Carbon Registry and MRV System for transparent carbon credit verification, tokenization, and environmental sustainability.",
 };
 
 export default function RootLayout({
