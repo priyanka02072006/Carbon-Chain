@@ -21,8 +21,8 @@ import { analyzeUploadedData, type AnalyzeUploadedDataOutput } from "@/ai/flows/
 import { Loader2, AlertCircle, CheckCircle2, ShieldCheck, TrendingUp } from "lucide-react";
 
 const formSchema = z.object({
-  plantationData: z.instanceof(FileList).refine((files) => files?.length === 1, "Plantation data file is required."),
-  supportingEvidence: z.instanceof(FileList).refine((files) => files?.length === 1, "Supporting evidence file is required."),
+  plantationData: z.any().refine((files) => files?.length === 1, "Plantation data file is required."),
+  supportingEvidence: z.any().refine((files) => files?.length === 1, "Supporting evidence file is required."),
 });
 
 type FormValues = z.infer<typeof formSchema>;
