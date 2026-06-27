@@ -1,18 +1,20 @@
+"use client";
+
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 
 const teamMembers = [
   {
-    name: "Roshini Muthukumar Deepa",
+    name: "Priyanka M",
     role: "Team Management/Leader",
-    avatar: "RMD",
-    bio: "Roshini leads the team, ensuring that project goals are met and the team works together effectively.",
+    avatar: "PM",
+    bio: "Priyanka leads the team, ensuring that project goals are met and the team works together effectively.",
   },
   {
-    name: "Priyanka M",
+    name: "Roshini Muthukumar Deepa",
     role: "Backend Developer",
-    avatar: "PM",
-    bio: "Priyanka is a backend developer, focused on building robust and scalable server-side logic.",
+    avatar: "RMD",
+    bio: "Roshini is a backend developer, focused on building robust and scalable server-side logic.",
   },
   {
     name: "Sanjay Kumar PJ",
