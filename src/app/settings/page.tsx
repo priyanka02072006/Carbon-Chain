@@ -134,7 +134,13 @@ export default function SettingsPage() {
               render={({ field }) => (
                 <FormItem>
                   <FormLabel>Theme</FormLabel>
-                  <Select onValueChange={field.onChange} defaultValue={field.value}>
+                   <Select
+  value={field.value}
+  onValueChange={(value) => {
+    field.onChange(value)
+    setTheme(value)
+  }}
+>
                     <FormControl>
                       <SelectTrigger>
                         <SelectValue placeholder="Select a theme" />
